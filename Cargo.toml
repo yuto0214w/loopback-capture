@@ -3,6 +3,9 @@ name = "loopback-capture"
 version = "0.1.0"
 edition = "2021"
 
+[profile.release]
+panic = "abort"
+
 [dependencies.windows]
 version = "0.61"
 features = [
